@@ -23,6 +23,7 @@ rbutton2.place(x=400, y=350)
 rbutton3 = Radiobutton(window, text = "Transgender", value = 3)
 rbutton3.place(x=400, y=400)
 
+# Combo Box
 data = ('biscuit','soap', 'shampoo', 'choclates','icecream')
 cd = Combobox(window, values = data)
 cd.place(x=400, y=450)
