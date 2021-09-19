@@ -10,7 +10,7 @@ def buttonclick():
 root.title("My First Window")
 
 # Initializing the size
-root.geometry("800x1000")
+root.geometry("800x1000+100+0")
 
 # labelling
 label1 = Label(root, text = "First Page")
