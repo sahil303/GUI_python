@@ -32,7 +32,7 @@ class calc:
         print("value of b is: ",self.b)
         multiplication = int(self.a) * int(self.b)
         print("multiplication of two numbers is : ",multiplication)
-        result = "multiplication of two number is : "+str(multiplication)
+        result = "Multiplication of two number is : "+str(multiplication)
         e3.delete(0,'end')
         e3.insert(END,result)
         
@@ -43,19 +43,19 @@ class calc:
         print("value of b is: ",self.b)
         division = int(self.a) / int(self.b)
         print("division of two numbers is : ",division)
-        result = "division of two number is : "+str(division)
+        result = "Division of two number is : "+str(division)
         e3.delete(0,'end')
         e3.insert(END,result)
 
 c = calc()
 # title of the app
 root = tkinter.Tk()
-root.geometry('800x700+0+0')
+root.geometry('800x650+0+0')
 root.title("Calculator")
 
 # Label of the app
 label1 = Label(root, text = "Simple Calculator Program", font = ("Times", "20", "bold"))
-label1.place(x = 225, y = 50)
+label1.place(x = 225, y = 100)
 
 # Label of first number
 label2 = Label(root, text = "Enter first number :", font = ("Times", "17", "bold"))
@@ -91,5 +91,5 @@ div = Button(root, text = "DIVISION", font = ("Times", "17", "bold"),command = c
 div.place(x = 600 , y = 350)
 
 # Output
-e3 = Entry(root,bd= 15, width =90, font = ("Times", 11, "bold"))
-e3.place(x = 0, y =500)
+e3 = Entry(root,bd= 15, width =110)
+e3.place(x = 50, y =475)
